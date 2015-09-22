@@ -29,6 +29,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
 		registry.addViewController("/homepage.html");
 		registry.addViewController("/console.html");
 		System.out.println("i m in controller");
+		System.out.println("Testing Test");
 	}
 
 	@Bean
